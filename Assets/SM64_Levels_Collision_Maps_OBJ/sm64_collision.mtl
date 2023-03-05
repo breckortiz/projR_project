@@ -1,0 +1,769 @@
+#v1.0 Ripped by @vl_tone
+#Terrain 0x00 - Environment default
+newmtl terrain0x00
+Kd 1.0000 1.0000 1.0000
+#Terrain 0x01 - Burn / Frostbite
+newmtl terrain0x01
+Kd 1.0000 1.0000 0.8000
+#Terrain 0x02 - 
+newmtl terrain0x02
+Kd 1.0000 1.0000 0.6000
+#Terrain 0x03 - 
+newmtl terrain0x03
+Kd 1.0000 1.0000 0.4000
+#Terrain 0x04 - Unused
+newmtl terrain0x04
+Kd 1.0000 1.0000 0.2000
+#Terrain 0x05 - Ceiling that Mario can climb on
+newmtl terrain0x05
+Kd 1.0000 1.0000 0.0000
+#Terrain 0x06 - 
+newmtl terrain0x06
+Kd 1.0000 0.8000 1.0000
+#Terrain 0x07 - 
+newmtl terrain0x07
+Kd 1.0000 0.8000 0.8000
+#Terrain 0x08 - 
+newmtl terrain0x08
+Kd 1.0000 0.8000 0.6000
+#Terrain 0x09 - Slow down Mario
+newmtl terrain0x09
+Kd 1.0000 0.8000 0.4000
+#Terrain 0x0A - Death floor
+newmtl terrain0x0A
+Kd 1.0000 0.8000 0.2000
+#Terrain 0x0B - Close camera
+newmtl terrain0x0B
+Kd 1.0000 0.8000 0.0000
+#Terrain 0x0C - 
+newmtl terrain0x0C
+Kd 1.0000 0.6000 1.0000
+#Terrain 0x0D - Water
+newmtl terrain0x0D
+Kd 1.0000 0.6000 0.8000
+#Terrain 0x0E - Water (flowing)
+newmtl terrain0x0E
+Kd 1.0000 0.6000 0.6000
+#Terrain 0x0F - 
+newmtl terrain0x0F
+Kd 1.0000 0.6000 0.4000
+#Terrain 0x10 - 
+newmtl terrain0x10
+Kd 1.0000 0.6000 0.2000
+#Terrain 0x11 - 
+newmtl terrain0x11
+Kd 1.0000 0.6000 0.0000
+#Terrain 0x12 - Intangible (Seperates BBH mansion from merry-go-round, for room usage)
+newmtl terrain0x12
+Kd 1.0000 0.4000 1.0000
+#Terrain 0x13 - Slippery
+newmtl terrain0x13
+Kd 1.0000 0.4000 0.8000
+#Terrain 0x14 - Slippery (slightly)
+newmtl terrain0x14
+Kd 1.0000 0.4000 0.6000
+#Terrain 0x15 - Anti-slippery
+newmtl terrain0x15
+Kd 1.0000 0.4000 0.4000
+#Terrain 0x16 - 
+newmtl terrain0x16
+Kd 1.0000 0.4000 0.2000
+#Terrain 0x17 - 
+newmtl terrain0x17
+Kd 1.0000 0.4000 0.0000
+#Terrain 0x18 - 
+newmtl terrain0x18
+Kd 1.0000 0.2000 1.0000
+#Terrain 0x19 - 
+newmtl terrain0x19
+Kd 1.0000 0.2000 0.8000
+#Terrain 0x1A - Varied noise depending on terrain (mostly unused)
+newmtl terrain0x1A
+Kd 1.0000 0.2000 0.6000
+#Terrain 0x1B - Instant warp to another area (see Level script command 28)
+newmtl terrain0x1B
+Kd 1.0000 0.2000 0.4000
+#Terrain 0x1C - Instant warp to another area
+newmtl terrain0x1C
+Kd 1.0000 0.2000 0.2000
+#Terrain 0x1D - Instant warp to another area
+newmtl terrain0x1D
+Kd 1.0000 0.2000 0.0000
+#Terrain 0x1E - Instant warp to another area
+newmtl terrain0x1E
+Kd 1.0000 0.0000 1.0000
+#Terrain 0x1F - 
+newmtl terrain0x1F
+Kd 1.0000 0.0000 0.8000
+#Terrain 0x20 - 
+newmtl terrain0x20
+Kd 1.0000 0.0000 0.6000
+#Terrain 0x21 - Sand (depth of 10 units)
+newmtl terrain0x21
+Kd 1.0000 0.0000 0.4000
+#Terrain 0x22 - Quicksand (lethal, slow, depth of 160 units)
+newmtl terrain0x22
+Kd 1.0000 0.0000 0.2000
+#Terrain 0x23 - Quicksand (lethal, instant)
+newmtl terrain0x23
+Kd 1.0000 0.0000 0.0000
+#Terrain 0x24 - Moving quicksand (flowing, depth of 160 units)
+newmtl terrain0x24
+Kd 0.8000 1.0000 1.0000
+#Terrain 0x25 - Moving quicksand (flowing, depth of 25 units)
+newmtl terrain0x25
+Kd 0.8000 1.0000 0.8000
+#Terrain 0x26 - Moving quicksand (depth of 60 units)
+newmtl terrain0x26
+Kd 0.8000 1.0000 0.6000
+#Terrain 0x27 - Moving quicksand (flowing, depth of 60 units)
+newmtl terrain0x27
+Kd 0.8000 1.0000 0.4000
+#Terrain 0x28 - Wall / Fence / Cannon
+newmtl terrain0x28
+Kd 0.8000 1.0000 0.2000
+#Terrain 0x29 - Default floor with noise
+newmtl terrain0x29
+Kd 0.8000 1.0000 0.0000
+#Terrain 0x2A - Slippery floor with noise
+newmtl terrain0x2A
+Kd 0.8000 0.8000 1.0000
+#Terrain 0x2B - 
+newmtl terrain0x2B
+Kd 0.8000 0.8000 0.8000
+#Terrain 0x2C - Wind
+newmtl terrain0x2C
+Kd 0.8000 0.8000 0.6000
+#Terrain 0x2D - Quicksand (lethal, flowing)
+newmtl terrain0x2D
+Kd 0.8000 0.8000 0.4000
+#Terrain 0x2E - Slippery Ice (CCM slide)
+newmtl terrain0x2E
+Kd 0.8000 0.8000 0.2000
+#Terrain 0x2F - Look up and warp (Wing cap entrance)
+newmtl terrain0x2F
+Kd 0.8000 0.8000 0.0000
+#Terrain 0x30 - Hard floor (Always has fall damage)
+newmtl terrain0x30
+Kd 0.8000 0.6000 1.0000
+#Terrain 0x31 - 
+newmtl terrain0x31
+Kd 0.8000 0.6000 0.8000
+#Terrain 0x32 - Surface Warp
+newmtl terrain0x32
+Kd 0.8000 0.6000 0.6000
+#Terrain 0x33 - Timer start (Peach's secret slide)
+newmtl terrain0x33
+Kd 0.8000 0.6000 0.4000
+#Terrain 0x34 - Timer stop (Peach's secret slide)
+newmtl terrain0x34
+Kd 0.8000 0.6000 0.2000
+#Terrain 0x35 - Hard and slippery (Always has fall damage)
+newmtl terrain0x35
+Kd 0.8000 0.6000 0.0000
+#Terrain 0x36 - Hard (Slide for CCM, Always has fall damage)
+newmtl terrain0x36
+Kd 0.8000 0.4000 1.0000
+#Terrain 0x37 - Non-slippery areas in ice levels
+newmtl terrain0x37
+Kd 0.8000 0.4000 0.8000
+#Terrain 0x38 - Death at bottom with wind
+newmtl terrain0x38
+Kd 0.8000 0.4000 0.6000
+#Terrain 0x39 - 
+newmtl terrain0x39
+Kd 0.8000 0.4000 0.4000
+#Terrain 0x3A - 
+newmtl terrain0x3A
+Kd 0.8000 0.4000 0.2000
+#Terrain 0x3B - 
+newmtl terrain0x3B
+Kd 0.8000 0.4000 0.0000
+#Terrain 0x3C - 
+newmtl terrain0x3C
+Kd 0.8000 0.2000 1.0000
+#Terrain 0x3D - 
+newmtl terrain0x3D
+Kd 0.8000 0.2000 0.8000
+#Terrain 0x3E - 
+newmtl terrain0x3E
+Kd 0.8000 0.2000 0.6000
+#Terrain 0x3F - 
+newmtl terrain0x3F
+Kd 0.8000 0.2000 0.4000
+#Terrain 0x40 - 
+newmtl terrain0x40
+Kd 0.8000 0.2000 0.2000
+#Terrain 0x41 - 
+newmtl terrain0x41
+Kd 0.8000 0.2000 0.0000
+#Terrain 0x42 - 
+newmtl terrain0x42
+Kd 0.8000 0.0000 1.0000
+#Terrain 0x43 - 
+newmtl terrain0x43
+Kd 0.8000 0.0000 0.8000
+#Terrain 0x44 - 
+newmtl terrain0x44
+Kd 0.8000 0.0000 0.6000
+#Terrain 0x45 - 
+newmtl terrain0x45
+Kd 0.8000 0.0000 0.4000
+#Terrain 0x46 - 
+newmtl terrain0x46
+Kd 0.8000 0.0000 0.2000
+#Terrain 0x47 - 
+newmtl terrain0x47
+Kd 0.8000 0.0000 0.0000
+#Terrain 0x48 - 
+newmtl terrain0x48
+Kd 0.6000 1.0000 1.0000
+#Terrain 0x49 - 
+newmtl terrain0x49
+Kd 0.6000 1.0000 0.8000
+#Terrain 0x4A - 
+newmtl terrain0x4A
+Kd 0.6000 1.0000 0.6000
+#Terrain 0x4B - 
+newmtl terrain0x4B
+Kd 0.6000 1.0000 0.4000
+#Terrain 0x4C - 
+newmtl terrain0x4C
+Kd 0.6000 1.0000 0.2000
+#Terrain 0x4D - 
+newmtl terrain0x4D
+Kd 0.6000 1.0000 0.0000
+#Terrain 0x4E - 
+newmtl terrain0x4E
+Kd 0.6000 0.8000 1.0000
+#Terrain 0x4F - 
+newmtl terrain0x4F
+Kd 0.6000 0.8000 0.8000
+#Terrain 0x50 - 
+newmtl terrain0x50
+Kd 0.6000 0.8000 0.6000
+#Terrain 0x51 - 
+newmtl terrain0x51
+Kd 0.6000 0.8000 0.4000
+#Terrain 0x52 - 
+newmtl terrain0x52
+Kd 0.6000 0.8000 0.2000
+#Terrain 0x53 - 
+newmtl terrain0x53
+Kd 0.6000 0.8000 0.0000
+#Terrain 0x54 - 
+newmtl terrain0x54
+Kd 0.6000 0.6000 1.0000
+#Terrain 0x55 - 
+newmtl terrain0x55
+Kd 0.6000 0.6000 0.8000
+#Terrain 0x56 - 
+newmtl terrain0x56
+Kd 0.6000 0.6000 0.6000
+#Terrain 0x57 - 
+newmtl terrain0x57
+Kd 0.6000 0.6000 0.4000
+#Terrain 0x58 - 
+newmtl terrain0x58
+Kd 0.6000 0.6000 0.2000
+#Terrain 0x59 - 
+newmtl terrain0x59
+Kd 0.6000 0.6000 0.0000
+#Terrain 0x5A - 
+newmtl terrain0x5A
+Kd 0.6000 0.4000 1.0000
+#Terrain 0x5B - 
+newmtl terrain0x5B
+Kd 0.6000 0.4000 0.8000
+#Terrain 0x5C - 
+newmtl terrain0x5C
+Kd 0.6000 0.4000 0.6000
+#Terrain 0x5D - 
+newmtl terrain0x5D
+Kd 0.6000 0.4000 0.4000
+#Terrain 0x5E - 
+newmtl terrain0x5E
+Kd 0.6000 0.4000 0.2000
+#Terrain 0x5F - 
+newmtl terrain0x5F
+Kd 0.6000 0.4000 0.0000
+#Terrain 0x60 - 
+newmtl terrain0x60
+Kd 0.6000 0.2000 1.0000
+#Terrain 0x61 - 
+newmtl terrain0x61
+Kd 0.6000 0.2000 0.8000
+#Terrain 0x62 - 
+newmtl terrain0x62
+Kd 0.6000 0.2000 0.6000
+#Terrain 0x63 - 
+newmtl terrain0x63
+Kd 0.6000 0.2000 0.4000
+#Terrain 0x64 - 
+newmtl terrain0x64
+Kd 0.6000 0.2000 0.2000
+#Terrain 0x65 - Wide camera (BOB)
+newmtl terrain0x65
+Kd 0.6000 0.2000 0.0000
+#Terrain 0x66 - Walls in THI area 3
+newmtl terrain0x66
+Kd 0.6000 0.0000 1.0000
+#Terrain 0x67 - 
+newmtl terrain0x67
+Kd 0.6000 0.0000 0.8000
+#Terrain 0x68 - 
+newmtl terrain0x68
+Kd 0.6000 0.0000 0.6000
+#Terrain 0x69 - 
+newmtl terrain0x69
+Kd 0.6000 0.0000 0.4000
+#Terrain 0x6A - 
+newmtl terrain0x6A
+Kd 0.6000 0.0000 0.2000
+#Terrain 0x6B - 
+newmtl terrain0x6B
+Kd 0.6000 0.0000 0.0000
+#Terrain 0x6C - 
+newmtl terrain0x6C
+Kd 0.4000 1.0000 1.0000
+#Terrain 0x6D - 
+newmtl terrain0x6D
+Kd 0.4000 1.0000 0.8000
+#Terrain 0x6E - Step on 4 to make Pyramid top explode
+newmtl terrain0x6E
+Kd 0.4000 1.0000 0.6000
+#Terrain 0x6F - Camera-  related (Bowser 1)
+newmtl terrain0x6F
+Kd 0.4000 1.0000 0.4000
+#Terrain 0x70 - Camera-related (BOB)
+newmtl terrain0x70
+Kd 0.4000 1.0000 0.2000
+#Terrain 0x71 - 
+newmtl terrain0x71
+Kd 0.4000 1.0000 0.0000
+#Terrain 0x72 - Inaccessible Area, only used to restrict camera movement
+newmtl terrain0x72
+Kd 0.4000 0.8000 1.0000
+#Terrain 0x73 - Slide with noise (unused)
+newmtl terrain0x73
+Kd 0.4000 0.8000 0.8000
+#Terrain 0x74 - Slide with noise (unused)
+newmtl terrain0x74
+Kd 0.4000 0.8000 0.6000
+#Terrain 0x75 - Camera-related (CCM)
+newmtl terrain0x75
+Kd 0.4000 0.8000 0.4000
+#Terrain 0x76 - Surface with flags
+newmtl terrain0x76
+Kd 0.4000 0.8000 0.2000
+#Terrain 0x77 - Surface with flags (unused)
+newmtl terrain0x77
+Kd 0.4000 0.8000 0.0000
+#Terrain 0x78 - Possibly for camera behavior, has noise
+newmtl terrain0x78
+Kd 0.4000 0.6000 1.0000
+#Terrain 0x79 - Slippery (for camera behavior)
+newmtl terrain0x79
+Kd 0.4000 0.6000 0.8000
+#Terrain 0x7A - Activate switches or Dorrie
+newmtl terrain0x7A
+Kd 0.4000 0.6000 0.6000
+#Terrain 0x7B - Vanish cap walls
+newmtl terrain0x7B
+Kd 0.4000 0.6000 0.4000
+#Terrain 0x7C - 
+newmtl terrain0x7C
+Kd 0.4000 0.6000 0.2000
+#Terrain 0x7D - 
+newmtl terrain0x7D
+Kd 0.4000 0.6000 0.0000
+#Terrain 0x7E - 
+newmtl terrain0x7E
+Kd 0.4000 0.4000 1.0000
+#Terrain 0x7F - 
+newmtl terrain0x7F
+Kd 0.4000 0.4000 0.8000
+#Terrain 0x80 - 
+newmtl terrain0x80
+Kd 0.4000 0.4000 0.6000
+#Terrain 0x81 - 
+newmtl terrain0x81
+Kd 0.4000 0.4000 0.4000
+#Terrain 0x82 - 
+newmtl terrain0x82
+Kd 0.4000 0.4000 0.2000
+#Terrain 0x83 - 
+newmtl terrain0x83
+Kd 0.4000 0.4000 0.0000
+#Terrain 0x84 - 
+newmtl terrain0x84
+Kd 0.4000 0.2000 1.0000
+#Terrain 0x85 - 
+newmtl terrain0x85
+Kd 0.4000 0.2000 0.8000
+#Terrain 0x86 - 
+newmtl terrain0x86
+Kd 0.4000 0.2000 0.6000
+#Terrain 0x87 - 
+newmtl terrain0x87
+Kd 0.4000 0.2000 0.4000
+#Terrain 0x88 - 
+newmtl terrain0x88
+Kd 0.4000 0.2000 0.2000
+#Terrain 0x89 - 
+newmtl terrain0x89
+Kd 0.4000 0.2000 0.0000
+#Terrain 0x8A - 
+newmtl terrain0x8A
+Kd 0.4000 0.0000 1.0000
+#Terrain 0x8B - 
+newmtl terrain0x8B
+Kd 0.4000 0.0000 0.8000
+#Terrain 0x8C - 
+newmtl terrain0x8C
+Kd 0.4000 0.0000 0.6000
+#Terrain 0x8D - 
+newmtl terrain0x8D
+Kd 0.4000 0.0000 0.4000
+#Terrain 0x8E - 
+newmtl terrain0x8E
+Kd 0.4000 0.0000 0.2000
+#Terrain 0x8F - 
+newmtl terrain0x8F
+Kd 0.4000 0.0000 0.0000
+#Terrain 0x90 - 
+newmtl terrain0x90
+Kd 0.2000 1.0000 1.0000
+#Terrain 0x91 - 
+newmtl terrain0x91
+Kd 0.2000 1.0000 0.8000
+#Terrain 0x92 - 
+newmtl terrain0x92
+Kd 0.2000 1.0000 0.6000
+#Terrain 0x93 - 
+newmtl terrain0x93
+Kd 0.2000 1.0000 0.4000
+#Terrain 0x94 - 
+newmtl terrain0x94
+Kd 0.2000 1.0000 0.2000
+#Terrain 0x95 - 
+newmtl terrain0x95
+Kd 0.2000 1.0000 0.0000
+#Terrain 0x96 - 
+newmtl terrain0x96
+Kd 0.2000 0.8000 1.0000
+#Terrain 0x97 - 
+newmtl terrain0x97
+Kd 0.2000 0.8000 0.8000
+#Terrain 0x98 - 
+newmtl terrain0x98
+Kd 0.2000 0.8000 0.6000
+#Terrain 0x99 - 
+newmtl terrain0x99
+Kd 0.2000 0.8000 0.4000
+#Terrain 0x9A - 
+newmtl terrain0x9A
+Kd 0.2000 0.8000 0.2000
+#Terrain 0x9B - 
+newmtl terrain0x9B
+Kd 0.2000 0.8000 0.0000
+#Terrain 0x9C - 
+newmtl terrain0x9C
+Kd 0.2000 0.6000 1.0000
+#Terrain 0x9D - 
+newmtl terrain0x9D
+Kd 0.2000 0.6000 0.8000
+#Terrain 0x9E - 
+newmtl terrain0x9E
+Kd 0.2000 0.6000 0.6000
+#Terrain 0x9F - 
+newmtl terrain0x9F
+Kd 0.2000 0.6000 0.4000
+#Terrain 0xA0 - 
+newmtl terrain0xA0
+Kd 0.2000 0.6000 0.2000
+#Terrain 0xA1 - 
+newmtl terrain0xA1
+Kd 0.2000 0.6000 0.0000
+#Terrain 0xA2 - 
+newmtl terrain0xA2
+Kd 0.2000 0.4000 1.0000
+#Terrain 0xA3 - 
+newmtl terrain0xA3
+Kd 0.2000 0.4000 0.8000
+#Terrain 0xA4 - 
+newmtl terrain0xA4
+Kd 0.2000 0.4000 0.6000
+#Terrain 0xA5 - 
+newmtl terrain0xA5
+Kd 0.2000 0.4000 0.4000
+#Terrain 0xA6 - Painting wobble (BoB 1)
+newmtl terrain0xA6
+Kd 0.2000 0.4000 0.2000
+#Terrain 0xA7 - Painting wobble (BoB 2)
+newmtl terrain0xA7
+Kd 0.2000 0.4000 0.0000
+#Terrain 0xA8 - Painting wobble (BoB 3)
+newmtl terrain0xA8
+Kd 0.2000 0.2000 1.0000
+#Terrain 0xA9 - Painting wobble (CCM 1)
+newmtl terrain0xA9
+Kd 0.2000 0.2000 0.8000
+#Terrain 0xAA - Painting wobble (CCM 2)
+newmtl terrain0xAA
+Kd 0.2000 0.2000 0.6000
+#Terrain 0xAB - Painting wobble (CCM 3)
+newmtl terrain0xAB
+Kd 0.2000 0.2000 0.4000
+#Terrain 0xAC - Painting wobble (WF 1)
+newmtl terrain0xAC
+Kd 0.2000 0.2000 0.2000
+#Terrain 0xAD - Painting wobble (WF 2)
+newmtl terrain0xAD
+Kd 0.2000 0.2000 0.0000
+#Terrain 0xAE - Painting wobble (WF 3)
+newmtl terrain0xAE
+Kd 0.2000 0.0000 1.0000
+#Terrain 0xAF - Painting wobble (JRB 1)
+newmtl terrain0xAF
+Kd 0.2000 0.0000 0.8000
+#Terrain 0xB0 - Painting wobble (JRB 2)
+newmtl terrain0xB0
+Kd 0.2000 0.0000 0.6000
+#Terrain 0xB1 - Painting wobble (JRB 3)
+newmtl terrain0xB1
+Kd 0.2000 0.0000 0.4000
+#Terrain 0xB2 - Painting wobble (LLL 1)
+newmtl terrain0xB2
+Kd 0.2000 0.0000 0.2000
+#Terrain 0xB3 - Painting wobble (LLL 2)
+newmtl terrain0xB3
+Kd 0.2000 0.0000 0.0000
+#Terrain 0xB4 - Painting wobble (LLL 3)
+newmtl terrain0xB4
+Kd 0.0000 1.0000 1.0000
+#Terrain 0xB5 - Painting wobble (SSL 1)
+newmtl terrain0xB5
+Kd 0.0000 1.0000 0.8000
+#Terrain 0xB6 - Painting wobble (SSL 2)
+newmtl terrain0xB6
+Kd 0.0000 1.0000 0.6000
+#Terrain 0xB7 - Painting wobble (SSL 3)
+newmtl terrain0xB7
+Kd 0.0000 1.0000 0.4000
+#Terrain 0xB8 - Painting wobble (?)
+newmtl terrain0xB8
+Kd 0.0000 1.0000 0.2000
+#Terrain 0xB9 - Painting wobble (?)
+newmtl terrain0xB9
+Kd 0.0000 1.0000 0.0000
+#Terrain 0xBA - Painting wobble (?)
+newmtl terrain0xBA
+Kd 0.0000 0.8000 1.0000
+#Terrain 0xBB - Painting wobble (BFS?)
+newmtl terrain0xBB
+Kd 0.0000 0.8000 0.8000
+#Terrain 0xBC - Painting wobble (BFS?)
+newmtl terrain0xBC
+Kd 0.0000 0.8000 0.6000
+#Terrain 0xBD - Painting wobble (BFS?)
+newmtl terrain0xBD
+Kd 0.0000 0.8000 0.4000
+#Terrain 0xBE - Painting wobble (WDW 1)
+newmtl terrain0xBE
+Kd 0.0000 0.8000 0.2000
+#Terrain 0xBF - Painting wobble (WDW 2)
+newmtl terrain0xBF
+Kd 0.0000 0.8000 0.0000
+#Terrain 0xC0 - Painting wobble (WDW 3)
+newmtl terrain0xC0
+Kd 0.0000 0.6000 1.0000
+#Terrain 0xC1 - Painting wobble (THI t 1)
+newmtl terrain0xC1
+Kd 0.0000 0.6000 0.8000
+#Terrain 0xC2 - Painting wobble (THI t 2)
+newmtl terrain0xC2
+Kd 0.0000 0.6000 0.6000
+#Terrain 0xC3 - Painting wobble (THI t 3)
+newmtl terrain0xC3
+Kd 0.0000 0.6000 0.4000
+#Terrain 0xC4 - Painting wobble (TTM 1)
+newmtl terrain0xC4
+Kd 0.0000 0.6000 0.2000
+#Terrain 0xC5 - Painting wobble (TTM 2)
+newmtl terrain0xC5
+Kd 0.0000 0.6000 0.0000
+#Terrain 0xC6 - Painting wobble (TTM 3)
+newmtl terrain0xC6
+Kd 0.0000 0.4000 1.0000
+#Terrain 0xC7 - Painting wobble (?)
+newmtl terrain0xC7
+Kd 0.0000 0.4000 0.8000
+#Terrain 0xC8 - Painting wobble (?)
+newmtl terrain0xC8
+Kd 0.0000 0.4000 0.6000
+#Terrain 0xC9 - Painting wobble (?)
+newmtl terrain0xC9
+Kd 0.0000 0.4000 0.4000
+#Terrain 0xCA - Painting wobble (SML 1, unused)
+newmtl terrain0xCA
+Kd 0.0000 0.4000 0.2000
+#Terrain 0xCB - Painting wobble (SML 2, unused)
+newmtl terrain0xCB
+Kd 0.0000 0.4000 0.0000
+#Terrain 0xCC - Painting wobble (SML 3, unused)
+newmtl terrain0xCC
+Kd 0.0000 0.2000 1.0000
+#Terrain 0xCD - Painting wobble (THI h 1)
+newmtl terrain0xCD
+Kd 0.0000 0.2000 0.8000
+#Terrain 0xCE - Painting wobble (THI h 2)
+newmtl terrain0xCE
+Kd 0.0000 0.2000 0.6000
+#Terrain 0xCF - Painting wobble (THI h 3)
+newmtl terrain0xCF
+Kd 0.0000 0.2000 0.4000
+#Terrain 0xD0 - Painting wobble (Metal cap?)
+newmtl terrain0xD0
+Kd 0.0000 0.2000 0.2000
+#Terrain 0xD1 - Painting wobble (Metal cap?)
+newmtl terrain0xD1
+Kd 0.0000 0.2000 0.0000
+#Terrain 0xD2 - Painting wobble (Metal cap?)
+newmtl terrain0xD2
+Kd 0.0000 0.0000 1.0000
+#Terrain 0xD3 - Horizontal level entrance (still have to label these)
+newmtl terrain0xD3
+Kd 0.0000 0.0000 0.8000
+#Terrain 0xD4 - Horizontal level entrance ()
+newmtl terrain0xD4
+Kd 0.0000 0.0000 0.6000
+#Terrain 0xD5 - Horizontal level entrance ()
+newmtl terrain0xD5
+Kd 0.0000 0.0000 0.4000
+#Terrain 0xD6 - Horizontal level entrance ()
+newmtl terrain0xD6
+Kd 0.0000 0.0000 0.2000
+#Terrain 0xD7 - Horizontal level entrance ()
+newmtl terrain0xD7
+Kd 0.9333 0.0000 0.0000
+#Terrain 0xD8 - Horizontal level entrance ()
+newmtl terrain0xD8
+Kd 0.8667 0.0000 0.0000
+#Terrain 0xD9 - Horizontal level entrance ()
+newmtl terrain0xD9
+Kd 0.7333 0.0000 0.0000
+#Terrain 0xDA - Horizontal level entrance ()
+newmtl terrain0xDA
+Kd 0.6667 0.0000 0.0000
+#Terrain 0xDB - Horizontal level entrance ()
+newmtl terrain0xDB
+Kd 0.5333 0.0000 0.0000
+#Terrain 0xDC - Horizontal level entrance ()
+newmtl terrain0xDC
+Kd 0.4667 0.0000 0.0000
+#Terrain 0xDD - Horizontal level entrance ()
+newmtl terrain0xDD
+Kd 0.3333 0.0000 0.0000
+#Terrain 0xDE - Horizontal level entrance ()
+newmtl terrain0xDE
+Kd 0.2667 0.0000 0.0000
+#Terrain 0xDF - Horizontal level entrance ()
+newmtl terrain0xDF
+Kd 0.1333 0.0000 0.0000
+#Terrain 0xE0 - 
+newmtl terrain0xE0
+Kd 0.0667 0.0000 0.0000
+#Terrain 0xE1 - 
+newmtl terrain0xE1
+Kd 0.0000 0.9333 0.0000
+#Terrain 0xE2 - 
+newmtl terrain0xE2
+Kd 0.0000 0.8667 0.0000
+#Terrain 0xE3 - 
+newmtl terrain0xE3
+Kd 0.0000 0.7333 0.0000
+#Terrain 0xE4 - 
+newmtl terrain0xE4
+Kd 0.0000 0.6667 0.0000
+#Terrain 0xE5 - 
+newmtl terrain0xE5
+Kd 0.0000 0.5333 0.0000
+#Terrain 0xE6 - 
+newmtl terrain0xE6
+Kd 0.0000 0.4667 0.0000
+#Terrain 0xE7 - 
+newmtl terrain0xE7
+Kd 0.0000 0.3333 0.0000
+#Terrain 0xE8 - 
+newmtl terrain0xE8
+Kd 0.0000 0.2667 0.0000
+#Terrain 0xE9 - 
+newmtl terrain0xE9
+Kd 0.0000 0.1333 0.0000
+#Terrain 0xEA - 
+newmtl terrain0xEA
+Kd 0.0000 0.0667 0.0000
+#Terrain 0xEB - 
+newmtl terrain0xEB
+Kd 0.0000 0.0000 0.9333
+#Terrain 0xEC - 
+newmtl terrain0xEC
+Kd 0.0000 0.0000 0.8667
+#Terrain 0xED - 
+newmtl terrain0xED
+Kd 0.0000 0.0000 0.7333
+#Terrain 0xEE - 
+newmtl terrain0xEE
+Kd 0.0000 0.0000 0.6667
+#Terrain 0xEF - 
+newmtl terrain0xEF
+Kd 0.0000 0.0000 0.5333
+#Terrain 0xF0 - Horizontal level entrance ()
+newmtl terrain0xF0
+Kd 0.0000 0.0000 0.4667
+#Terrain 0xF1 - Horizontal level entrance ()
+newmtl terrain0xF1
+Kd 0.0000 0.0000 0.3333
+#Terrain 0xF2 - Horizontal level entrance ()
+newmtl terrain0xF2
+Kd 0.0000 0.0000 0.2667
+#Terrain 0xF3 - Horizontal level entrance ()
+newmtl terrain0xF3
+Kd 0.0000 0.0000 0.1333
+#Terrain 0xF4 - Horizontal level entrance ()
+newmtl terrain0xF4
+Kd 0.0000 0.0000 0.0667
+#Terrain 0xF5 - Horizontal level entrance ()
+newmtl terrain0xF5
+Kd 0.9333 0.9333 0.9333
+#Terrain 0xF6 - Horizontal level entrance ()
+newmtl terrain0xF6
+Kd 0.8667 0.8667 0.8667
+#Terrain 0xF7 - Horizontal level entrance ()
+newmtl terrain0xF7
+Kd 0.7333 0.7333 0.7333
+#Terrain 0xF8 - Horizontal level entrance ()
+newmtl terrain0xF8
+Kd 0.6667 0.6667 0.6667
+#Terrain 0xF9 - Horizontal level entrance ()
+newmtl terrain0xF9
+Kd 0.5333 0.5333 0.5333
+#Terrain 0xFA - Horizontal level entrance ()
+newmtl terrain0xFA
+Kd 0.4667 0.4667 0.4667
+#Terrain 0xFB - Horizontal level entrance ()
+newmtl terrain0xFB
+Kd 0.3333 0.3333 0.3333
+#Terrain 0xFC - Horizontal level entrance ()
+newmtl terrain0xFC
+Kd 0.2667 0.2667 0.2667
+#Terrain 0xFD - Pool warp (HMC)
+newmtl terrain0xFD
+Kd 0.1333 0.1333 0.1333
+#Terrain 0xFE - 
+newmtl terrain0xFE
+Kd 0.0667 0.0667 0.0667
+#Terrain 0xFF - Bowser 1 trapdoor
+newmtl terrain0xFF
+Kd 0.0000 0.0000 0.0000
